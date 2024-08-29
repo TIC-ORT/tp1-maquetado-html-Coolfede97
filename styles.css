@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 15vh;
+}
+.buscador
+{
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    background-color: white;
+    height: 7vh;
+    width: 50vw;
+}   
+.buscadorButton
+{
+    position: relative;
+    left: 2vw;
+    background-color: white;
+    height: 7vh;
+    width: 7vh;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+}
+article
+{
+    background-color: peru;
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    width: 60vw;
+}
+aside
+{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    height: 85vh;
+    width: 20vw;
+}
