@@ -154,12 +154,14 @@ aside
         width: 60%;
         header
         {
+            justify-content: start;
             font-size: 1rem;
             width: 100%;
             height: auto;
         }
         article
         {
+            justify-content: start;
             font-size: 0.9rem;
             width: 100%;
             height: auto;
